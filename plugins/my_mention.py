@@ -15,7 +15,7 @@ def listen_func(message):
   message.reply('メンションをつけて直接聞いてください') # メンション
 @respond_to("hello")
 def hello(message):
-  message.reply("hello")
+  message.reply("hello Osaki")
 @respond_to("ニュース")
 def send_news(message):
   news = functions.get_news()
