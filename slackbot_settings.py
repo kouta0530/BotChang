@@ -11,4 +11,4 @@ API_TOKEN = os.environ.get('SLACKBOT_API_TOKEN')
 # このbot宛のメッセージで、どの応答にも当てはまらない場合の応答文字列
 DEFAULT_REPLY = "I dont't understand you."
 # プラグインスクリプトを置いてあるサブディレクトリ名のリスト
-PLUGINS = ['slackbot.plugins','plugin']
+PLUGINS = ['plugin']
