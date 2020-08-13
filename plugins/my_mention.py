@@ -13,7 +13,7 @@ def mention_func(message):
 def listen_func(message):
   message.send('時間を知りのですか？') # ただの投稿
   message.reply('メンションをつけて直接聞いてください') # メンション
-@respond_to("hello kume")
+@respond_to("hello")
 def hello(message):
   message.reply("hello")
 @respond_to("ニュース")
