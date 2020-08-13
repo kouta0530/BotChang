@@ -11,3 +11,4 @@ API_TOKEN = os.environ.get('SLACKBOT_API_TOKEN')
 DEFAULT_REPLY = os.environ.get('SLACKBOT_DEFAULT_REPLY')
 # プラグインスクリプトを置いてあるサブディレクトリ名のリスト
 PLUGINS = [os.environ.get('SLACKBOT_PLUGINS'),]
+print(PLUGINS)
